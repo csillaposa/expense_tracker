@@ -4,6 +4,7 @@ function ExpenseItem() {
     const expenseDate = new Date(2021, 8, 18);
     const expenseTitle = 'Car Insurance';
     const expenseAmount = 300;
+    
     return (
         <div className="expense-item">
             <div>{expenseDate.toISOString()}</div>
