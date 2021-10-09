@@ -1,9 +1,9 @@
 //create a new component that is responsible for displaying expenses
 //add multiple ExpenseItem components in that component
 //keep the expenses array in the App component and pass that data into Expenses component
-import ExpenseItem from './ExpenseItem';
-import Card from './Card';
-import './Expenses.css';
+import ExpenseItem from '../Expenses/ExpenseItem';
+import Card from '../UI/Card';
+import '../Expenses/Expenses.css';
 
 function Expenses(props) {
     return (
